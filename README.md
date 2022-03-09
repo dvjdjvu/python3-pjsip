@@ -23,11 +23,12 @@ $ sudo make install
 With this you already have PJSIP installed on your machine. To work with pysua in python 3, run the following commands:
 ```bash
 $ sudo apt install python3-dev
-$ cd pjproject-x.x/pjsip-apps/src/
-$ git clone https://github.com/mgwilliams/python3-pjsip.git
+$ cd pjsip-apps/src/
+$ git clone https://github.com/dvjdjvu/python3-pjsip
 $ cd python3-pjsip
 $ python3 setup.py build
 $ sudo python3 setup.py install
+$ sudo ldconfig
 ```
 
 You can test the operation of pjsua directly in python:
