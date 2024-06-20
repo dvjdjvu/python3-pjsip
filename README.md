@@ -27,7 +27,15 @@ $ cd pjsip-apps/src/
 $ git clone https://github.com/dvjdjvu/python3-pjsip
 $ cd python3-pjsip
 $ python3 setup.py build
+```
+2 ways to install:
+```bash
 $ sudo python3 setup.py install
+$ sudo ldconfig
+```
+or better:
+```bash
+$ sudo pip3 install .
 $ sudo ldconfig
 ```
 
